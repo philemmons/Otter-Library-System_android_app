@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pl_hold_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vader.proj2part3.MainActivity">
+
+
+    <TextView
+        android:text="PickUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et4"
+        android:textSize="14sp"
+        android:hint="Enter title here"
+        android:layout_below="@+id/tv30"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:width="150dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et5"
+        android:textSize="14sp"
+        android:hint="username"
+        android:layout_below="@+id/tv37"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/b3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Attempt: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv35"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/tv3"
+        android:layout_alignBottom="@+id/tv3"
+        android:layout_toStartOf="@+id/tv3" />
+
+    <TextView
+        android:text="Enter Date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/et1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:text="Enter Time:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et2"
+        android:textSize="12sp"
+        android:hint="AM/PM"
+        android:width="50dp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/et1"
+        android:layout_alignBottom="@+id/et1"
+        android:layout_toEndOf="@+id/et1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/et3"
+        android:textSize="14sp"
+        android:hint="mm.dd.yyyy"
+        android:textColor="@android:color/black"
+        android:width="100dp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/et2"
+        android:layout_alignStart="@+id/textView20"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/et1"
+        android:textSize="14sp"
+        android:hint="hh:mm"
+        android:width="80dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/et7"
+        android:textSize="14sp"
+        android:hint="hh:mm"
+        android:width="80dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et8"
+        android:textSize="12sp"
+        android:hint="AM/PM"
+        android:width="50dp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/et7"
+        android:layout_alignBottom="@+id/et7"
+        android:layout_toEndOf="@+id/et7" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/et9"
+        android:textSize="14sp"
+        android:hint="mm.dd.yyyy"
+        android:textColor="@android:color/black"
+        android:width="100dp"
+        android:layout_alignBottom="@+id/et8"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Book List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv36"
+        android:textColor="@android:color/black"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=" Book Title: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv30"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="133dp"
+        android:layout_below="@+id/tv36"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv39"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/tv35"
+        android:layout_alignStart="@+id/et6" />
+
+    <TextView
+        android:text="Username:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv37"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/tv39"
+        android:layout_alignBottom="@+id/tv39"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Enter Date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView38"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/textView21"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Enter Time:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/textView21"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Enter Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:textSize="12sp"
+        android:visibility="visible"
+        android:width="60dp"
+        android:layout_alignBottom="@+id/et4"
+        android:layout_alignEnd="@+id/tv39" />
+
+    <Button
+        android:text="Enter Time/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/et7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/b2"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et6"
+        android:textSize="14sp"
+        android:hint="password"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/tv39"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:minWidth="175dp"
+        android:maxHeight="150dp"
+        android:layout_below="@+id/tv36"
+        android:layout_toStartOf="@+id/tv3" />
+
+    <TextView
+        android:text="Your Selection:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/et5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView32"
+        android:id="@+id/tv2"
+        android:textSize="10sp"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

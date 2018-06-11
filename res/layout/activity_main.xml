@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vader.proj2part3.MainActivity">
+
+    <Button
+        android:text="Place Hold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/placeHoldBtn"
+        android:layout_below="@+id/createAccBtn"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Otter Library System"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Cancel Hold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/cancelHoldBtn"
+        android:layout_below="@+id/placeHoldBtn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Manage System"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/manageSystemBtn"
+        android:layout_below="@+id/cancelHoldBtn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Create Account"
+        android:layout_height="wrap_content"
+        android:id="@+id/createAccBtn"
+        android:layout_width="match_parent"
+        android:elevation="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

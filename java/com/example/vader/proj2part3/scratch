@@ -1,0 +1,68 @@
+//    // create a database for the app
+//        MySQLiteHelper db = new MySQLiteHelper(this);
+//
+//        // add books to the database table.
+//        db.addBook(new Book("Hot Java", "S. Narayanan", "123-ABC-101", .05 ));
+//        db.addBook(new Book("Fun Java", "Y. Byun", "ABCDEF-09", 1.0 ));
+//        db.addBook(new Book("Algorithm for Java", "K. Alice", "CDE-777-123", .25));
+//
+//        // Read the all books information from the database
+//        // and store it to an array list.
+//       // bookList = db.getAllBooks();
+//
+//        // Update the database information of the first book in the array list.
+////        Book mybook = list.get(0);
+////        mybook.setAuthor("Prof. Sathya");
+////        mybook.setTitle(("Android Programming."));
+////        db.updateBook(mybook);
+////
+////        // This is for the debugging purpose of updateBook() method.
+////        db.getAllBooks();
+////
+////        // delete the first book from the database.
+////        db.deleteBook(mybook);
+////
+////        // This is for the debugging purpose of deleteBook() method.
+//        db.getAllBooks();
+    }
+
+//    @Override
+//    public boolean onCreateOptionMenu(Menu menu){
+//        getMenuInflater().inflate(R.menu_main, menu);
+//        return true;
+//
+//    }
+
+
+
+MyApp application = (MyApp)this.getApplicationContext();
+
+//    public void confirm() {
+//        AlertDialog.Builder dialog = new AlertDialog.Builder(this)
+//                .setTitle("Confirm the Reservation.")
+//
+//                .setPositiveButton("Yes",
+//                        new DialogInterface.OnClickListener() {
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//
+//                                Intent i = new Intent(PlaceHoldDisplay.this, MainActivity.class);
+//                                startActivity(i);
+//                                finish();
+//                            }
+//                        })
+//
+//                .setNegativeButton("No",
+//                        new DialogInterface.OnClickListener() {
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//
+//                                Intent i = new Intent(PlaceHoldDisplay.this, MainActivity.class);
+//                                startActivity(i);
+//                                finish();
+//                            }
+//                        });
+//        AlertDialog helpDialog = dialog.create();
+//        helpDialog.show();
+//
+//    }

@@ -1,0 +1,12 @@
+<resources>
+
+
+    <string name="app_name">OLS</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_new_password">Enter New Password:</string>
+    <string name="enter_new_username">Enter New Username:</string>
+    <string name="password">Password</string>
+    <string name="the_username_and_password_must_have_at_least_one_special_symbol_or_one_number_and_three_alphabetic_letters">The username and password must have at least one special symbol (!, @, #, or $), one number, and three alphabetic letters.</string>
+    <string name="user_name">User Name</string>
+    <string name="verify">Verify</string>
+</resources>
